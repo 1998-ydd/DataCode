@@ -292,7 +292,7 @@ def wafer_data_make(data_list, gap1, new_origin):
     return wafer_data
  
     
-def plt_Vmap(V_data,name):
+def plt_Vmap(V_data,data0,name):
     plt.figure()
     L1 = V_data["M1L"]
     L2 = V_data["M4L"]
